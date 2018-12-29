@@ -4,7 +4,7 @@
 #
 Name     : eternalegypt
 Version  : 0.0.5
-Release  : 2
+Release  : 3
 URL      : https://github.com/amelchio/eternalegypt/archive/v0.0.5.tar.gz
 Source0  : https://github.com/amelchio/eternalegypt/archive/v0.0.5.tar.gz
 Summary  : No detailed summary available
