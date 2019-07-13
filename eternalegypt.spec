@@ -4,7 +4,7 @@
 #
 Name     : eternalegypt
 Version  : 0.0.7
-Release  : 6
+Release  : 7
 URL      : https://github.com/amelchio/eternalegypt/archive/v0.0.7/eternalegypt-0.0.7.tar.gz
 Source0  : https://github.com/amelchio/eternalegypt/archive/v0.0.7/eternalegypt-0.0.7.tar.gz
 Summary  : No detailed summary available
