@@ -4,7 +4,7 @@
 #
 Name     : eternalegypt
 Version  : 0.0.10
-Release  : 9
+Release  : 10
 URL      : https://github.com/amelchio/eternalegypt/archive/v0.0.10/eternalegypt-0.0.10.tar.gz
 Source0  : https://github.com/amelchio/eternalegypt/archive/v0.0.10/eternalegypt-0.0.10.tar.gz
 Summary  : No detailed summary available
@@ -15,6 +15,7 @@ Requires: eternalegypt-python = %{version}-%{release}
 Requires: eternalegypt-python3 = %{version}-%{release}
 Requires: aiohttp
 Requires: attrs
+Requires: flatten_json
 BuildRequires : aiohttp
 BuildRequires : attrs
 BuildRequires : buildreq-distutils3
@@ -59,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1572793854
+export SOURCE_DATE_EPOCH=1572794618
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
