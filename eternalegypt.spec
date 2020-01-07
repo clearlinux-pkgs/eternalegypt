@@ -4,7 +4,7 @@
 #
 Name     : eternalegypt
 Version  : 0.0.11
-Release  : 12
+Release  : 13
 URL      : https://github.com/amelchio/eternalegypt/archive/v0.0.11/eternalegypt-0.0.11.tar.gz
 Source0  : https://github.com/amelchio/eternalegypt/archive/v0.0.11/eternalegypt-0.0.11.tar.gz
 Summary  : No detailed summary available
