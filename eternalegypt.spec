@@ -4,10 +4,10 @@
 #
 Name     : eternalegypt
 Version  : 0.0.11
-Release  : 13
+Release  : 14
 URL      : https://github.com/amelchio/eternalegypt/archive/v0.0.11/eternalegypt-0.0.11.tar.gz
 Source0  : https://github.com/amelchio/eternalegypt/archive/v0.0.11/eternalegypt-0.0.11.tar.gz
-Summary  : No detailed summary available
+Summary  : Netgear LTE modem API
 Group    : Development/Tools
 License  : MIT
 Requires: eternalegypt-license = %{version}-%{release}
@@ -46,6 +46,7 @@ python components for the eternalegypt package.
 Summary: python3 components for the eternalegypt package.
 Group: Default
 Requires: python3-core
+Provides: pypi(eternalegypt)
 
 %description python3
 python3 components for the eternalegypt package.
@@ -60,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1575558639
+export SOURCE_DATE_EPOCH=1582921839
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
